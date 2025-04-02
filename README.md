@@ -36,17 +36,6 @@ A classe `VeiculoTest` utiliza JUnit para validar o funcionamento da classe `Vei
 - **Testes para o construtor**
   - Validação do valor da diária (não pode ser negativo).
 
-## Como Executar
-
-1. **Compilar o código:**
-   ```sh
-   javac -cp .:junit-5.7.1.jar org/example/Veiculo.java org/example/VeiculoTest.java
-   ```
-
-2. **Executar os testes:**
-   ```sh
-   java -jar junit-platform-console-standalone-1.7.1.jar --class-path . --select-class org.example.VeiculoTest
-   ```
 
 ## Tecnologias Utilizadas
 
